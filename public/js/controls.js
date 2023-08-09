@@ -4,7 +4,7 @@ function routeTo(route) {
 
 async function getAPi(route) {
 
-    var url = "http://" + window.location.host + route
+    var url = window.location.origin + route
 
     console.log(url);
     
