@@ -86,7 +86,7 @@
             "hourly_price": "exempt",
             "description": ""
         },
-        "pc_troubleshooting": {
+        "pc_troubleshoot": {
             "workers": 1,
             "base_price": "low",
             "bundle_price": "exempt",

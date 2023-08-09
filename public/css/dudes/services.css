@@ -50,3 +50,9 @@ tr {
 .serviceContainer table tr th {
     width: 250px;
 }
+
+@media only screen and (max-width: 600px) {
+    .contentBox {
+        font-size: 1em;
+    }
+}

@@ -18,7 +18,8 @@
     text-align: center;
     width: fit-content;
     padding: 15px;
-    width: 700px;
+    min-width: 300px;
+    max-width: 700px;
     box-shadow: 0 0 10px lightgrey;
     line-height: 1.3em;
     overflow: break-word;
@@ -65,4 +66,20 @@
 
 .active {
     color: ghostwhite;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        min-width: 350px;
+    }
+    .dudes-logo {
+        height: 300px;
+    }
+    .card {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .btn-block {
+        font-size: 1em;
+    }
 }
