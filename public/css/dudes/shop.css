@@ -1,0 +1,63 @@
+
+main {
+
+    padding-top: 150px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-areas:
+        'services services cart'
+        'services services cart';
+    padding-left: 50px;
+}
+
+
+.btn-submit {
+    display: flex;
+    justify-content: center;
+    background: black;
+    color: var(--mainOverlay);
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    transition: all 0.2s;
+}
+
+.cart {
+    grid-area: cart;
+    width: 350px;
+    box-shadow: 0 0 10px lightgrey;
+}
+
+.menu {
+    grid-area: services;
+}
+.island {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: var(--mainOverlay);
+    font-size: 1.5em;
+    padding-left: 10px;
+    padding: 10px;
+
+    border-bottom: 1px solid var(--mainOverlay);
+}
+
+.nav button {
+    background: none;
+    border: none;
+    color: var(--mainOverlay);
+    font-size: 1.1em;
+}
+
+.btn-submit:hover {
+    font-size: 1.6em;
+    cursor: pointer;
+}

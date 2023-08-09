@@ -1,0 +1,52 @@
+/* tags */
+
+main {
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display:grid;
+    justify-content: center;
+}
+
+th {
+    border: 3px solid var(--mainOverlay);
+    font-size: 1.3em;
+}
+
+td {
+    padding: 10px;
+    font-size: 1.1em;
+    height: 10px;
+    border-bottom: 1px solid var(--mainOverlay);
+}
+
+tr {
+    
+}
+
+.serviceContainer {
+    color: ghostwhite;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.minHeight {
+    min-height: 500px;
+}
+
+.contentBox {
+    background: var(--mainFont);
+    width: fit-content;
+    padding: 20px;
+    text-align: center;
+}
+
+.serviceContainer h1 {
+    margin: 0;
+}
+
+.serviceContainer table tr th {
+    width: 250px;
+}

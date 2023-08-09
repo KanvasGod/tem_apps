@@ -1,0 +1,162 @@
+{
+    "theater": {
+        "device_troubleshoot": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "device_setup": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "tv_mounting_or_setup": {
+            "workers": 2,
+            "base_price": "high",
+            "bundle_price": 50,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "sound_bar_mounting_or_setup": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "inwall_power_kit": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 50,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "led_strip_lighting": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "reciever_setup": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        }
+    },
+    "IT": {
+        "network_setup": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": "exempt",
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "file_transfers": {
+            "workers": 1,
+            "base_price": "low",
+            "bundle_price": "exempt",
+            "hourly_price": 40,
+            "description": ""
+        },
+        "Os_cloning": {
+            "workers": 1,
+            "base_price": "high",
+            "bundle_price": "exempt",
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "pc_setup": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 50,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "printer_setup": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "pc_troubleshooting": {
+            "workers": 1,
+            "base_price": "low",
+            "bundle_price": "exempt",
+            "hourly_price": 40,
+            "description": ""
+        },
+        "PC_build_&_setup": {
+            "workers": 1,
+            "base_price": "very_high",
+            "bundle_price": "exempt",
+            "hourly_price": "exempt",
+            "description": ""
+        }
+    },
+    "labor": {
+        "consultasion": {
+            "workers": 1,
+            "base_price": "very_low",
+            "bundle_price": "exempt",
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "designer_appointment": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": "exempt",
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "dry_wall_patch": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": "exempt",
+            "hourly_price": 35,
+            "description": ""
+        },
+        "furniture_assembly": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 50,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "carpantry": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": "exempt",
+            "hourly_price": 35,
+            "description": ""
+        },
+        "smart_home_device_setup": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "Item_hang_install": {
+            "workers": 1,
+            "base_price": "base",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "wifi_security_cam_install": {
+            "workers": 1,
+            "base_price": "high",
+            "bundle_price": 25,
+            "hourly_price": "exempt",
+            "description": ""
+        }
+    }
+}

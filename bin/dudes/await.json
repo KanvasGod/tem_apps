@@ -1,0 +1,24 @@
+{
+    "theater": {
+        "speaker_install": {
+            "workers": 2,
+            "base_price": "high",
+            "bundle_price": 90,
+            "hourly_price": "exempt",
+            "description": ""
+        },
+        "5.1 - 7.1_speaker_install": {
+            "workers": 2,
+            "base_price": "max",
+            "bundle_price": "exempt",
+            "hourly_price": "exempt",
+            "description": ""
+        }
+    },
+    "IT": {
+
+    },
+    "labor": {
+
+    }
+}

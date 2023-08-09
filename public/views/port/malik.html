@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik Harrison</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/malik/malik.css">
+</head>
+<body class="container">
+
+    <div class="background">
+
+        <nav>
+            <div class="nav1">
+                Malik Harrison
+            </div>
+            <button id="navHandle" class="nav3"></button>
+            <ul class="navBox nav3">
+                <button id="partnersList" class="navItem">Partners</button>
+                <button onclick="routeTo('/resume/projects')" class="navItem">Projects</button>
+                <button onclick="signIn()" class="navItem">Sign in</button>
+            </ul>
+            <div class="nav2">
+                <a class="navItem" href="/dedicateddudes">Dedicated Dudes</a>
+                <a class="navItem" href="/gravity">Gravity</a>
+                <a class="navItem" href="https://www.etsy.com/shop/FiniteOfficial">Finite Official</a>
+            </div>
+    
+        </nav>
+    
+        <main id="slider">
+            <div class="wrapper">
+                <div id="showcase_1" class="slide">slide</div>
+                <div class="bio">
+                    <img src="" alt="Malik bio picture">
+                    <h2>Web Developer</h2>
+                    <hr>
+                    <div>
+                        <p>
+                            Hello, my names Malik.
+                            <br>
+                            I am an experienced web developer with a strong focus on backend development, 
+                            utilizing Node.js and Python to build robust and scalable applications. 
+                            Skilled in creating efficient code, optimizing performance, and implementing secure solutions. 
+                        </p>
+    
+                        <p>
+                            Proficient in working with databases and RESTful
+                            APIs to ensure seamless data management and integration.
+                            My background is Graphic design so I no only do backend, I design and build frontend applications as well.
+                        </p>
+                        
+                        <p>
+                            Committed to delivering high-quality projects within deadlines, collaborating with cross-functional teams, 
+                            and providing effective solutions for clients. 
+                            Ready to leverage my expertise in web development to contribute to the success of your projects,
+                            contact me by resume download or Gravity Web Services.
+                        </p>
+    
+                        <h4>Check out some of my projects and services</h4>
+    
+                    </div>
+                    <div class="selectBox">
+                        <a href="/resume/projects" class="jumpBtn">Projects</a>
+                        <button class="jumpBtn">
+                            <img id="resume_download" src="./images/file_download.png" alt="resume download">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    
+        <div>
+            <hr>
+            <h2 class="indent">Partners & Services</h2>
+        </div>
+    
+        <section id="partners">
+    
+            <a href="https://www.etsy.com/shop/FiniteOfficial" class="partnerItem" id="dudeslink">
+                <img width="" src="./images/finite_logo.png" alt="Handyman logo">
+                <p>
+                    Finite Offical
+                </p>
+            </a>
+    
+            <a href="/dedicateddudes" class="partnerItem" id="dudeslink">
+                <img src="./images/handIT_0.png" alt="Handyman logo">
+                <p>
+                    Dedicated Dudes
+                    Handyman & IT
+                </p>
+            </a>
+    
+            <a href="/gravity" class="partnerItem" id="dudeslink">
+                <img src="./images/gravity.png" alt="Handyman logo">
+                <p>
+                    Gravity
+                    Web Services
+                </p>
+            </a>
+    
+        </section>
+    
+        <footer id="footer">
+            <ul id="mediaSelector">
+                <li>
+                    <a href="https://www.linkedin.com/in/malik-harrison-CodersForge/">
+                        <img src="./images/linkedin_grey.png" alt="linkedin profile">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/KanvasGod">
+                        <img src="./images/gitHub_grey.png" alt="github profile">
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <p>Copyright © malikharrison.com All Rights Reserved</p>
+            </div>
+            
+        </footer>
+
+    </div>
+
+    <div class="foreground" id="overlay">
+        
+        <div class="signBox">
+            <h3>Sign In</h3>
+            <form>
+                <div>
+                    <input class="input" type="email" placeholder="Email">
+                </div>
+                <div>
+                    <input class="input" type="password" placeholder="Password">
+                </div>
+                <div id="error">
+                    somthing happend
+                </div>
+                <button class="jumpBtn" type="submit">Submit</button>
+            </form>
+            
+        </div>
+    </div>
+
+    
+
+    <script src="./js/controls.js"></script>
+    <script src="./js/malik.js"></script>
+</body>
+</html>

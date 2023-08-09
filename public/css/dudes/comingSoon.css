@@ -1,0 +1,68 @@
+/* classes */
+.dudes-logo {
+    height: 400px;
+}
+
+.map-center {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.spaceTop {
+    margin-top: 50px;
+}
+
+.card {
+    text-align: center;
+    width: fit-content;
+    padding: 15px;
+    width: 700px;
+    box-shadow: 0 0 10px lightgrey;
+    line-height: 1.3em;
+    overflow: break-word;
+    background-color: var(--mainOverlay);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-block {
+    color: rgb(214, 214, 214);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: none;
+    cursor: pointer;
+}
+
+.menu {
+    background-color: var(--mainFont);
+    text-align: center;
+}
+
+.content {
+    background-color: var(--mainOverlay);
+    padding: 20px;
+    box-shadow: 0 0 10px lightgrey;
+    width: fit-content;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.content h1 {
+    margin-top: 0;
+}
+
+/* actions */
+
+.btn-block:hover {
+    color: ghostwhite;
+}
+
+.active {
+    color: ghostwhite;
+}

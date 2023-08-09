@@ -1,0 +1,38 @@
+
+main {
+    padding-top: 150px;
+}
+
+.page {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px lightgrey;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: break-word;
+    background-color: var(--mainOverlay);
+    text-align: center;
+    min-height: 1000px;
+    min-width: 300px;
+}
+
+.page p { 
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 800px) {
+
+    .page {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
+    .page {
+        
+    }
+}
